@@ -199,3 +199,79 @@ nav.header-in .menu{
 .overflow-hidden{
   overflow: hidden;
 }
+
+section{
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
+}
+section .intro{
+  font-size: 20px;
+  padding-top: 9em;
+  justify-content: center;
+  height: 460px;
+  background-color: black;
+}
+
+
+#grid{
+  margin: 30px 30px;
+  text-align: center;
+  line-height: 0;
+}
+
+figure{
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+  margin: 0px;
+  position: relative;
+}
+
+
+figure img{
+  width:auto;
+  height: 100%;
+}
+
+
+figure figcaption{
+  width: 280px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:10px;
+  opacity: 0;
+}
+figure:hover{
+  background-color: #F9A91A;
+  overflow: hidden;
+}
+
+img.style-picture {
+  height: 280px;
+  width: 310px;
+  /*cursor: pointer;*/
+}
+
+figure:hover img{
+  opacity:0.5;
+  -webkit-transform:scale(1.07);
+  -moz-transform:scale(1.07);
+  -ms-transform:scale(1.07);
+  -o-transform:scale(1.07);
+  transform:scale(1.07);
+}
+figcaption.center{
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.4s;
+  color: white;
+	transition: 0.4s;
+  -webkit-transition: all 0.5s ease;
+}
+figure:hover figcaption{
+  opacity: 1;
+}

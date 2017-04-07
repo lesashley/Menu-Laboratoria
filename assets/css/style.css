@@ -207,12 +207,45 @@ section{
   padding-top: 0;
   width: 100%;
 }
-section .intro{
-  font-size: 20px;
-  padding-top: 9em;
+.intro{
+  box-sizing: border-box;
+  height: 440px;
+  width:100%;
+  background: black;
+  color: #fff;
+  font-family: monospace;
+  padding-top: 14em;
+  display: flex;
   justify-content: center;
-  height: 460px;
-  background-color: black;
+}
+.intro .text-var{
+  display: inline;
+  font-size: 37px;
+  color: rgb(160, 54, 54);
+  font-weight: bold;
+
+}
+.typewriter h1 {
+  font-size: 37px;
+  overflow: hidden;
+  border-right: .20em solid orange; /*ancho del cursor*/
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/*Efecto del cursor*/
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 
@@ -220,6 +253,9 @@ section .intro{
   margin: 30px 30px;
   text-align: center;
   line-height: 0;
+}
+#grid h1{
+  font-size: 40px;
 }
 
 figure{

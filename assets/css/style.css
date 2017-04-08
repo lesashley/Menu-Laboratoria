@@ -218,13 +218,7 @@ section{
   display: flex;
   justify-content: center;
 }
-.intro .text-var{
-  display: inline;
-  font-size: 37px;
-  color: rgb(160, 54, 54);
-  font-weight: bold;
 
-}
 .typewriter h1 {
   font-size: 40px;
   overflow: hidden;

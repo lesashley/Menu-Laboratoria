@@ -226,7 +226,7 @@ section{
 
 }
 .typewriter h1 {
-  font-size: 37px;
+  font-size: 40px;
   overflow: hidden;
   border-right: .20em solid orange; /*ancho del cursor*/
   white-space: nowrap;

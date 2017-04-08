@@ -233,12 +233,14 @@ section{
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    /*typing 3.5s steps(40, end),*/
+    read 5s steps(50)infinite alternate;
+    blink-caret .75s step-end infinite alternate;
+
 }
 
-@keyframes typing {
-  from { width: 0 }
+@keyframes read {
+  from { width: 0% }
   to { width: 100% }
 }
 
